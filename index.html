@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" >
+  <script defer src="java.js"></script>
+    <title>Mega Quiz</title>
+</head>
+<body>
+    <div class="container">
+        <audio id="audio1" src="Oh Yes.mp3"></audio>
+        <audio id="audio2" src="Oh no.mp3"></audio>
+        <div id="question-container" class="hide">
+            <div id="question">Question</div>
+            <div id="answer-buttons" class="answer-class">
+                <div class="btn">answer1</div>
+                <div class="btn">answer2</div>
+                <div class="btn">answer3</div>
+                <div class="btn">answer4</div>
+            </div>
+        </div>
+        <div class="Controls">
+            <button id="start-btn" class="start-btn btn">Start</button>
+            <!-- this element has been added with three class 
+            1.next-btn
+          2.btn
+        3.hide -- it is used function of hide class .
+     -->
+            <button id="next-btn"  class="next-btn btn  hide ">Next</button>
+        </div>
+    </div>
+    
+</body>
+</html>
